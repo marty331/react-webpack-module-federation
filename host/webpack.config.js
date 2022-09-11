@@ -29,6 +29,7 @@ module.exports = {
       name: "Host",
       remotes: {
         Remote: `Remote@http://localhost:4000/moduleEntry.js`,
+        Total: `Total@http://localhost:5000/moduleEntry.js`,
       },
       shared: {
         ...dependencies,
