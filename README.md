@@ -1,4 +1,4 @@
-# react-micro-frontend-example
+# react-webpack-module-federation
 
 Example of using React in host-remote micro-frontend pattern with Webpack Module Federation
 
