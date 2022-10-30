@@ -6,7 +6,7 @@ import Button from "./Button";
 export const App = (props) => {
   const [vms, setVms] = useState(0);
   const [hours, setHours] = useState(0)
-  const [sum, setSum] = useState(0)
+  const [sum, setSum] = useState(props.total ? props.total : 0)
   // console.log('remote props ', props.getTotal)
   // console.log('remote regions ', hostRegions)
 
