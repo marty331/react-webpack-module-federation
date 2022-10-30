@@ -30,12 +30,6 @@ export const App = (props) => {
     console.log(hours)
   }
 
-  const radios = {
-    display: 'grid', 
-    width: '20em', 
-    'grid-template-columns': '1fr', 
-  }
-
   return (
     <>
     <h1>Hello from the other side!</h1>
