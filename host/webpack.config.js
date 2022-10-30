@@ -27,9 +27,13 @@ module.exports = {
   plugins: [
     new ModuleFederationPlugin({
       name: "Host",
+      filename: 'moduleEntry.js',
       remotes: {
         Remote: `Remote@http://localhost:4000/moduleEntry.js`,
-        Total: `Total@http://localhost:5000/moduleEntry.js`,
+        Total: `Total@http://localhost:4100/moduleEntry.js`,
+      },
+      exposes: {
+        './Data': './src/data/regions.json',
       },
       shared: {
         ...dependencies,

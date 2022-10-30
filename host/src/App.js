@@ -4,6 +4,8 @@ const RemoteApp = React.lazy(() => import("Remote/App"));
 const RemoteButton = React.lazy(() => import("Remote/Button"));
 const TotalApp = React.lazy(() => import("Total/App"))
 
+import regions from './data/regions.json';
+
 const RemoteWrapper = ({ children }) => (
   <div
     style={{
@@ -21,6 +23,8 @@ export const App = () => {
   const getTotal = (passedTotal) => {
     setTotal(passedTotal);
   }
+
+  console.log('regions ', regions)
   return (
   <div style={{ background: "rgba(43, 192, 219, 0.3)" }}>
     <h1>This is the Host!</h1>
