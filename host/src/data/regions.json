@@ -1,0 +1,28 @@
+{
+  "regions": [
+  {
+    "name": "East EU",
+    "slug": "useast"
+  },
+  {
+    "name": "West US",
+    "slug": "uswest"
+  },
+  {
+    "name": "Central US",
+    "slug": "uscent"
+  },
+  {
+    "name": "UK South",
+    "slug": "uksouth"
+  },
+  {
+    "name": "UK West",
+    "slug": "ukwest"
+  },
+  {
+    "name": "East Asia",
+    "slug": "easia"
+  }
+]
+}
