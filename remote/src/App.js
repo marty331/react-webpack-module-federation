@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
 import './Button'
 import Button from "./Button";
-const hostRegions = React.lazy(() => import("Host/Data"));
+// const hostRegions = React.lazy(() => import("Host/Data"));
 
 export const App = (props) => {
   const [vms, setVms] = useState(0);
   const [hours, setHours] = useState(0)
   const [sum, setSum] = useState(0)
-  console.log('remote props ', props.getTotal)
-  console.log('remote regions ', hostRegions)
+  // console.log('remote props ', props.getTotal)
+  // console.log('remote regions ', hostRegions)
 
   useEffect(() => {
-    props.getTotal(sum)
+    // props.getTotal(sum)
   }, [sum])
 
   const calcSum = () => {
