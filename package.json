@@ -13,6 +13,7 @@
     "start:host": "cd ./host && npm start",
     "start:remote": "cd ./remote && npm start",
     "start:total": "cd ./total && npm start",
+    "build:remote": "cd ./remote && npm run build",
     "start:all": "yarn workspaces run start",
     "cleanup": "yarn workspaces run cleanup"
   }

@@ -22,7 +22,7 @@ jobs:
     - name: Build website
       run: |
         npm install
-        npm run build
+        npm run build:remote
 
     - name: Deploy to Azure Storage
       uses: TravisSpomer/deploy-to-azure-storage@v1.4.0
