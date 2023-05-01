@@ -14,6 +14,9 @@
     "start:remote": "cd ./remote && npm start",
     "start:total": "cd ./total && npm start",
     "build:remote": "cd ./remote && npm install && npm run build",
+    "build:host": "cd ./host && npm install && npm run build",
+    "build:total": "cd ./total && npm install && npm run build",
+    "build": "npm run build:host && npm run build:remote && npm run build:total",
     "start:all": "yarn workspaces run start",
     "cleanup": "yarn workspaces run cleanup"
   }
